@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="161dp"
+        android:layout_height="152dp"
+        android:contentDescription="@string/androide"
+        app:srcCompat="@drawable/ic_android_black_24dp"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="161dp"
+        android:layout_height="152dp"
+        android:contentDescription="@string/androide"
+        app:srcCompat="@drawable/ic_android_black_24dp1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:contentDescription="@string/avio"
+        android:rotation="90"
+        app:srcCompat="@drawable/ic_baseline_airplanemode_active_24"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="271dp" />
+</androidx.constraintlayout.motion.widget.MotionLayout>
